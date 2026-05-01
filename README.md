@@ -26,6 +26,11 @@ This allows MySQL to jump directly to matching rows without scanning the full ta
 
 ### Proof — local test with 10 million records
 
+Before Setting index
+![before](images/1.png)
+
+
+
 | | Query time |
 |---|---|
 | Before index | 0.0018 seconds |
