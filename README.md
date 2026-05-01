@@ -26,10 +26,14 @@ This allows MySQL to jump directly to matching rows without scanning the full ta
 
 ### Proof — local test with 10 million records
 
-Before Setting index
-![before](images/1.png)
+Before indexing
+![before_index](images/1.png)
 
+Adding index
+![adding_index](images/2.png)
 
+After indexing
+![adding_index](images/3.png)
 
 | | Query time |
 |---|---|
