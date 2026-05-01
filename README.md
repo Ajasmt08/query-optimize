@@ -184,12 +184,3 @@ need to access address data or scheduling data independently without
 pulling the entire lead record every time.
 
 ---
-
-### Summary
-
-| # | Change | Schema change? | Impact |
-|---|---|---|---|
-| 1 | Composite index `(account_id, deleted_at, id)` | ❌ No | Primary performance fix |
-| 2 | Remove `OFFSET 0` | ❌ No | Minor cleanup |
-| 3 | Vertical partitioning into 3 tables | ✅ Yes | Architectural improvement for long term scale |
-```
