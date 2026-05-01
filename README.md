@@ -1,8 +1,3 @@
-Here's your updated README content:
-
----
-
-```markdown
 ## Query Optimization — leads table
 
 ### Problem
